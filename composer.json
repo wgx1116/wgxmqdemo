@@ -1,0 +1,26 @@
+{
+    "name": "wgx/wgxmqdemo",
+    "description": "php simulate message queue demo",
+    "type": "project",
+    "license": "reserve",
+    "authors": [
+        {
+            "name": "wangguoxin",
+            "email": "1015838747@qq.com"
+        }
+    ],
+    "require": {
+        "wgx/wgxpdoex": "dev-master",
+        "wgx/wgxmq": "dev-master"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "/var/GitRepo/wgxpdoex.git"
+        },
+        {
+            "type": "vcs",
+            "url": "/var/GitRepo/wgxmq.git"
+        }
+    ]
+}
